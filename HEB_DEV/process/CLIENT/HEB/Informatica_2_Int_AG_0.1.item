@@ -322,13 +322,13 @@
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="copyOfout1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="Integer.parseInt(row4.PRODUCT_NUMBER) " name="PRE_ARTICULO" type="id_Integer"/>
-        <mapperTableEntries expression="Integer.parseInt(row4.ORG_LVL_NUMBER) " name="PRE_SUCURSAL" type="id_Integer"/>
+        <mapperTableEntries expression="row4.ORG_LVL_NUMBER" name="PRE_SUCURSAL" type="id_Integer"/>
         <mapperTableEntries expression="&quot;S&quot; " name="PRE_NIVEL" type="id_String"/>
         <mapperTableEntries expression="row4.PRC_PRICE " name="PRE_PRECIO" nullable="true" type="id_Double"/>
         <mapperTableEntries expression="row4.PRC_EFFECTIVE_DAY.getDate() + (1 + row4.PRC_EFFECTIVE_DAY.getMonth()) * 100 + (1900 + row4.PRC_EFFECTIVE_DAY.getYear()) * 10000 " name="PRE_FECHA" type="id_Integer"/>
         <mapperTableEntries expression="" name="PRE_MARGEN" nullable="true" type="id_Double"/>
         <mapperTableEntries expression="&quot;S&quot; " name="PRE_VIGENTE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Integer.parseInt(row4.PRC_TYPE)" name="PRE_TIPO" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row4.PRC_TYPE" name="PRE_TIPO" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row4.PRC_PRICE " name="PRE_PRECNORM" type="id_Double"/>
         <mapperTableEntries expression="String.valueOf(row4.PRC_EFFECTIVE_DAY.getDate() + (1+ row4.PRC_EFFECTIVE_DAY.getMonth()) * 100 + (1900 + row4.PRC_EFFECTIVE_DAY.getYear()) * 10000) " name="XXX_ORIGEN" nullable="true" type="id_String"/>
         <mapperTableEntries name="XXX_REMOTO" nullable="true" type="id_Integer"/>
@@ -1009,13 +1009,13 @@
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="Integer.parseInt(row3.PRODUCT_NUMBER) " name="PRE_ARTICULO" type="id_Integer"/>
-        <mapperTableEntries expression="Integer.parseInt(row3.ORG_LVL_NUMBER)" name="PRE_SUCURSAL" type="id_Integer"/>
+        <mapperTableEntries expression="row3.ORG_LVL_NUMBER" name="PRE_SUCURSAL" type="id_Integer"/>
         <mapperTableEntries expression="&quot;S&quot; " name="PRE_NIVEL" type="id_String"/>
         <mapperTableEntries expression="row3.PRC_PRICE" name="PRE_PRECIO" nullable="true" type="id_Double"/>
         <mapperTableEntries expression="row3.PRC_EFFECTIVE_DAY.getDate() + (1 + row3.PRC_EFFECTIVE_DAY.getMonth()) * 100 + (1900 + row3.PRC_EFFECTIVE_DAY.getYear()) * 10000 " name="PRE_FECHA" type="id_Integer"/>
         <mapperTableEntries expression="" name="PRE_MARGEN" nullable="true" type="id_Double"/>
         <mapperTableEntries expression="&quot;N&quot;" name="PRE_VIGENTE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Integer.parseInt(row3.PRC_TYPE) " name="PRE_TIPO" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row3.PRC_TYPE" name="PRE_TIPO" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row3.PRC_PRICE" name="PRE_PRECNORM" type="id_Double"/>
         <mapperTableEntries expression="String.valueOf(row3.PRC_EFFECTIVE_DAY.getDate() + (1+ row3.PRC_EFFECTIVE_DAY.getMonth()) * 100 + (1900 + row3.PRC_EFFECTIVE_DAY.getYear()) * 10000) " name="XXX_ORIGEN" nullable="true" type="id_String"/>
         <mapperTableEntries name="XXX_REMOTO" nullable="true" type="id_Integer"/>
@@ -1450,13 +1450,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d3e11a07-7e2b-40c8-89d5-718262584826"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6OJWY5RyYCZKHfcRXbb1JVWMeaSEDvSFyU2sT9otUeD1JcaPKk1PPfGbTMzFTOVpj9TQhP0pI5yU
-0WvE1k+ycQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_091f5620-beb5-40bc-afb7-7f36f811b247"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>v0h5/rQvGEmgTrAI9Q9ceuwfiJT75rvwnwb4TUBsHE6jLgjzEnrOCqPH5hz0PV3CQnafJ4BOvOlD
-wP1Hoidufw==</DigestValue></Reference></SignedInfo><SignatureValue>IJAVLoO/r0hOM7DGxSHjN5EbqdUjvInKRtYTI3aHUMfzM431ACfp6gnp7lsVAAbzaqni0HKXaHho
-AwdseaTl8Y99EwWnIkeae8l2mw1Jp8nm+TFYBI/BSxeALVwpvGXs6WTAItNtLuTrey25bqfDcSzf
-UqRo81P0T1Zw2jNKhtsHmcJvGyWi9QytiZcbKtjPYma4EYkOr43Fsi99k4naU07ym159o10vXsK9
-Nem/Hej4YYK14Cf4de/+LJSo38s3xRyayizhCE5Efi18PeAdooF4S2l1jskQytcM6CoyMiVszQqy
-T1vlQ02eKzvUgvg0A+8cNPeNk74Dva6dNadEIg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_750f7f73-915d-4776-944a-2a46af68d84d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SBbJT7ELqrAI985UlDMbBYzKxrMjAKOx12nsV7oNP75xqBsexiHpFFkw4RNgTJeZnJ7m+6aQ9k/u
+UZD0on06Rg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bb4fa42a-2c69-4673-b2eb-0a21f3c28759"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>X/b+EtjHzyLiw+nxyzVlyR4OYvl6JXivEyHiQtYprbYAWKUR5LMCzvrgO5WAzuGrv6tP8Jk54BMp
+5NRV5poncQ==</DigestValue></Reference></SignedInfo><SignatureValue>MQZbLmEP+5zEDMOh77BegjrK/+9ChopGAfHEyyVgT1+JWfvPiDFsZuRLufRdvkLMZ/GzTXSvX5Z+
+FVLMFT3e1a4Fz93imlMgOEBZ45fNChkb/oESqcjDEcbOuGPCuukD3kcqKSHOMSpKWJJXW/FxOTru
+ajFqHcdcZcs05e1A3mJ6M1No291+JEYGq6Iuwn0SVTrQGQqYXi4BTQYOX0qTgWQLJ3hzEfxzmevn
+pFObEG1P/n7JI9St1hbca+AqgRv4qbMZ9/f8Abosj0xVtgg14ngdIc1PudReM6l+cHiZbVcOki+/
+3cZmu/E2YKhIVANIrIk/I6JkpnMJMPnN2x8O3A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -1480,4 +1480,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_091f5620-beb5-40bc-afb7-7f36f811b247" Target="#_d3e11a07-7e2b-40c8-89d5-718262584826"><Timestamp>2019-02-07 03:25:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bb4fa42a-2c69-4673-b2eb-0a21f3c28759" Target="#_750f7f73-915d-4776-944a-2a46af68d84d"><Timestamp>2019-02-07 03:26:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
