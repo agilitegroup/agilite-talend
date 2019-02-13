@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_3l6QMC9MEemY5IZrZq44Rg" label="HEB_Test" description="" language="java" technicalLabel="HEB_TEST" creationDate="2019-02-12T23:00:20.015-0600" author="_3l6QMS9MEemY5IZrZq44Rg" productVersion="Talend Data Fabric-7.1.1.20181026_1147" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/agilitegroup/agilite-talend.git&quot;,&quot;login&quot;:&quot;zlorenzini@agilitegroup.com&quot;,&quot;passwd&quot;:&quot;DOdjS6rnQqZbGeQCfeKnAA==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI">
+    <migrationTask xmi:id="_3yUUgC9MEemY5IZrZq44Rg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_3l6QMS9MEemY5IZrZq44Rg" login="zlorenzini@agilitegroup.com" firstName="Zach" lastName="Lorenzini" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
