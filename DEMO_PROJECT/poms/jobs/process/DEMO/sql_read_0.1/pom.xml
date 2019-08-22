@@ -9,9 +9,9 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.demo_project.job</groupId>
-  <artifactId>SQL_READ</artifactId>
+  <artifactId>sql_read</artifactId>
   <version>0.1.0</version>
-  <name>DEMO_PROJECT SQL_READ-0.1.0 (0.1,Job Designs)</name>
+  <name>DEMO_PROJECT sql_read-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -33,7 +33,7 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>SQL_READ</talend.job.name>
+    <talend.job.name>sql_read</talend.job.name>
     <talend.job.id>_dSlrUMUTEemDw73KqLSwZA</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>demo/</talend.job.folder>
