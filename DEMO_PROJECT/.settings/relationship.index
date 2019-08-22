@@ -111,6 +111,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_PUfhIMUFEem6Q_Af69Dmtg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -150,6 +154,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_PUfhIMUFEem6Q_Af69Dmtg - customers",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
