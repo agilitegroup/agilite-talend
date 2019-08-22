@@ -9,15 +9,15 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.demo_project.service</groupId>
-  <artifactId>REST_API-bundle</artifactId>
+  <artifactId>rest_api_demo-bundle</artifactId>
   <version>0.1.0</version>
   <packaging>bundle</packaging>
-  <name>DEMO_PROJECT REST_API-0.1.0 (0.1,Job Designs) Bundle</name>
+  <name>DEMO_PROJECT rest_api_demo-0.1.0 (0.1,Job Designs) Bundle</name>
   <properties>
     <item.name>@ItemName@</item.name>
     <bundle.config.export.service>@BundleConfigExportService@</bundle.config.export.service>
     <bundle.config.bundle.classpath>@BundleConfigBundleClasspath@</bundle.config.bundle.classpath>
-    <talend.job.name>REST_API</talend.job.name>
+    <talend.job.name>rest_api_demo</talend.job.name>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
     <talend.project.name>DEMO_PROJECT</talend.project.name>
@@ -41,7 +41,7 @@
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <talend.job.version>0.1</talend.job.version>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
-    <talend.job.path>demo_project/rest_api_0_1</talend.job.path>
+    <talend.job.path>demo_project/rest_api_demo_0_1</talend.job.path>
     <talend.job.context>Default</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
     <talend.pigudf.groupid>org.example.demo_project.pigudf</talend.pigudf.groupid>

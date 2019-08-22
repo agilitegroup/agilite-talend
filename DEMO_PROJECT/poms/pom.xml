@@ -11,10 +11,10 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/DEMO/sql_to_azure_0.1</module>
-    <module>jobs/process/DEMO/rest_api_0.1</module>
     <module>jobs/process/DEMO/sql_read_0.1</module>
     <module>jobs/process/DEMO/sql_to_s3_0.1</module>
     <module>jobs/process/DEMO/ms_sql_demo_0.1</module>
+    <module>jobs/process/DEMO/rest_api_demo_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
